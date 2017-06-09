@@ -1,2 +1,2 @@
 # vote_restaurant
-App for vote in rsstaurant 
+App for vote in restaurant 
