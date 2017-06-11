@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "226795866801",
+    "firebase_url": "https://vote-restaurant-1497098750271.firebaseio.com",
+    "project_id": "vote-restaurant-1497098750271",
+    "storage_bucket": "vote-restaurant-1497098750271.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226795866801:android:92c7a9748750872a",
+        "android_client_info": {
+          "package_name": "br.com.andreraupp.voterestaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226795866801-10dmfkgv5a72h1d7lb1jf4dlc1qpr7gn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJKDOU8ejlw74rjve-nEi4njchu52F3M0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
