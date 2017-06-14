@@ -5,9 +5,9 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" android:required="true" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:required="true"  />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" android:required="true"  />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -29,10 +29,25 @@
             android:name=".activities.RestaurantsListActivity"
             android:label="@string/list_restaurentes_title">
         </activity>
+        <activity
+            android:name=".activities.MostVotedListActivity"
+            android:label="@string/list_most_voted_title">
+        </activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyC7pb_tjhET-rhhdI2ON8kF65JDw15jM4w"/>
+
+        <service android:name=".Services.InstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"></action>
+            </intent-filter>
+        </service>
+        <service android:name=".Services.MessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"></action>
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
