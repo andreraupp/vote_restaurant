@@ -1,16 +1,32 @@
 <resources>
-    <string name="app_name">Vote Restaurant</string>
+    <string name="app_name">Onde almoçar?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Logar ou registrar</string>
+    <string name="action_sign_in_short">Logar</string>
+    <string name="error_invalid_email">Email inválido</string>
+    <string name="error_invalid_password">A senha deve conter no minimo 6 caracteres</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="error_registration">Erro no registro</string>
+    <string name="success_registration">Registrado com suscesso</string>
+    <string name="registering_plase_wait">Registrando agarde...</string>
+
+    <!-- Strings related to list restaurants -->
+    <string name="list_restaurentes_title">Lista de Resutaurantes</string>
+    <string name="click_to_vote">Selecione seu restaurante preferido para votar nele.</string>
+    <string name="winner_restaurant">Restaurante vencedor</string>
+    <string name="your_vote">Seu voto.</string>
+    <string name="close_votation">Votação encerrada hoje.</string>
+    <string name="voted_today">Você ja votou hoje.</string>
+    <string name="you_want_vote_this_restaurante">Você deseja votar neste restaurante? Lembre-se só podera votar em um por dia.</string>
+
+    <!-- Strings related to most voted -->
+    <string name="list_most_voted_title">Mais votados de ontem</string>
+    <string name="button_most_voted">Mais votados de ontem</string>
+    <string name="most_voted">Restaurantes mais votados no dia </string>
+
 </resources>
